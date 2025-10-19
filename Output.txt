@@ -1,0 +1,41 @@
+=== Quicksort Assignment ===
+
+Original array: [42, 15, 73, 8, 91, 27, 50]
+Deterministic Quicksort: [8, 15, 27, 42, 50, 73, 91]
+Randomized Quicksort: [8, 15, 27, 42, 50, 73, 91]   
+
+---------------------------------------------
+
+Input size: 1000
+Random input:
+  Deterministic Quicksort: 0.00060s
+  Randomized Quicksort:    0.00083s
+Sorted input (worst case for deterministic): 
+  Deterministic Quicksort: 0.02402s
+  Randomized Quicksort:    0.00073s
+Reverse-sorted input:
+  Deterministic Quicksort: 0.01703s
+  Randomized Quicksort:    0.00076s
+---------------------------------------------
+Input size: 5000
+Random input:
+  Deterministic Quicksort: 0.00365s
+  Randomized Quicksort:    0.00467s
+Sorted input (worst case for deterministic): 
+  Deterministic Quicksort: 0.64329s
+  Randomized Quicksort:    0.00440s
+Reverse-sorted input:
+  Deterministic Quicksort: 0.36874s
+  Randomized Quicksort:    0.00450s
+---------------------------------------------
+Input size: 10000
+Random input:
+  Deterministic Quicksort: 0.00817s
+  Randomized Quicksort:    0.01048s
+Sorted input (worst case for deterministic):
+  Deterministic Quicksort: 2.68001s
+  Randomized Quicksort:    0.00968s
+Reverse-sorted input:
+  Deterministic Quicksort: 1.30224s
+  Randomized Quicksort:    0.00970s
+---------------------------------------------
